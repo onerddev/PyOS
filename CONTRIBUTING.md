@@ -18,10 +18,9 @@ Obrigado por considerar contribuir para o PyOS-Agent! Este documento fornece dir
 
 Veja [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) para nossas normas comunitárias. Resumem-se a:
 
-- ✅ Ser respeitoso com todos
-- ✅ Aceitar críticas construtivas
-- ✅ Focar no que é melhor para a comunidade
-- ❌ Assédio, insultos ou comportamento discriminatório não serão tolerados
+-  Ser respeitoso com todos
+-  Aceitar críticas construtivas
+-  Focar no que é melhor para a comunidade
 
 ---
 
@@ -67,9 +66,9 @@ main                    # Production-ready
 
 ### Antes de Reportar
 
-1. ✅ Checar [Issues existentes](issues)
-2. ✅ Verificar [Troubleshooting](README.md#troubleshooting)
-3. ✅ Rodar testes: `poetry run pytest tests/`
+1.  Checar [Issues existentes](issues)
+2.  Verificar [Troubleshooting](README.md#troubleshooting)
+3.  Rodar testes: `poetry run pytest tests/`
 
 ### Como Reportar
 
@@ -140,7 +139,7 @@ from loguru import logger
 #### 2. **Type Hints Completos (100%)**
 
 ```python
-# ✅ Bom
+# Bom
 async def execute(command: str, timeout: int = 30) -> ToolResult:
     """Execute command with timeout."""
     pass
@@ -391,4 +390,5 @@ class DeletePlugin(BaseTool):
 **Obrigado por contribuir!** 
 
 Toda contribuição, pequena ou grande, é apreciada e ajuda a fazer PyOS-Agent melhor.
+
 
