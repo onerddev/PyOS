@@ -34,7 +34,8 @@ Este Código de Conduta se aplica tanto dentro dos espaços do projeto quanto em
 
 ## Aplicação
 
-Instâncias de comportamento abusivo, de assédio ou inaceitável podem ser denunciadas entrando em contato com a equipe do projeto em **[seu-email@example.com]**. Todas as reclamações serão revisadas e investigadas e resultarão em uma resposta que é considerada necessária e apropriada às circunstâncias. A equipe do projeto é obrigada a manter a confidencialidade em relação ao repórter de um incidente.
+Instâncias de comportamento abusivo, de assédio ou inaceitável podem ser denunciadas entrando em contato com a equipe do projeto em **[ emanuelfelipe.120309@gmail.com
+]**. Todas as reclamações serão revisadas e investigadas e resultarão em uma resposta que é considerada necessária e apropriada às circunstâncias. A equipe do projeto é obrigada a manter a confidencialidade em relação ao repórter de um incidente.
 
 Detalhes específicos de políticas de aplicação podem ser publicados separadamente.
 
@@ -89,4 +90,5 @@ Esperamos que todos os membros da comunidade PyOS-Agent:
 
 
 Obrigado por ser parte do PyOS-Agent.
+
 
