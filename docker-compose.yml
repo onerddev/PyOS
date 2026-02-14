@@ -1,0 +1,56 @@
+version: '3.9'
+
+services:
+  pyos-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pyos-agent-dev
+    
+    # Variáveis de ambiente
+    environment:
+      - DEBUG=true
+      - LOG_LEVEL=DEBUG
+      - DISPLAY=:99
+      - PYTHONUNBUFFERED=1
+      - SECURITY_ENABLED=true
+      # Carregar do arquivo .env
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    
+    # Mounts de volume
+    volumes:
+      # Código-fonte (desenvolvimento)
+      - .:/app
+      # Diretório de saída (screenshots, PDFs, etc)
+      - ./output:/root/Desktop
+      # Cache do Poetry
+      - poetry-cache:/root/.cache/pypoetry
+      # Logs
+      - ./logs:/app/logs
+      # .env arquivo
+      - ./.env:/app/.env
+    
+    # Portos (para API FastAPI)
+    ports:
+      - "8000:8000"
+    
+    # Capacidades de sistema necessárias
+    cap_add:
+      - SYS_NICE
+    
+    # Modo interativo
+    stdin_open: true
+    tty: true
+    
+    # Rede
+    networks:
+      - pyos-network
+
+volumes:
+  poetry-cache:
+
+networks:
+  pyos-network:
+    driver: bridge
