@@ -40,12 +40,6 @@ Detalhes específicos de políticas de aplicação podem ser publicados separada
 
 Mantenedores de projetos que não seguem ou garantem o cumprimento do Código de Conduta de boa fé podem enfrentar ramificações temporárias ou permanentes conforme determinado por outros membros da liderança do projeto.
 
-## Atribuição
-
-Este Código de Conduta é adaptado do [Covenant de Colaborador][homepage], versão 1.4, disponível em [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html][version]
-
-[homepage]: https://www.contributor-covenant.org
-[version]: https://www.contributor-covenant.org/version/1/4/
 
 ---
 
@@ -53,7 +47,7 @@ Este Código de Conduta é adaptado do [Covenant de Colaborador][homepage], vers
 
 ### Como reportar uma violação?
 
-Enviar email para: **[seu-email@example.com]**
+Enviar email para: emanuelfelipe.120309@gmail.com
 
 Inclua:
 - Descrição da violação
@@ -93,8 +87,6 @@ Esperamos que todos os membros da comunidade PyOS-Agent:
 4. ✅ **Trabalhem para melhorar** tanto o projeto quanto a comunidade
 5. ✅ **Reportem violações** aos mantenedores
 
----
-
-**Juntos, criaremos uma comunidade acolhedora, inclusiva e produtiva.** 🌈
 
 Obrigado por ser parte do PyOS-Agent.
+
