@@ -383,12 +383,12 @@ class DeletePlugin(BaseTool):
 ## Dúvidas?
 
 - 📚 [README completo](README.md)
-- 🐛 [Issues](issues)
-- 💬 [Discussions](discussions)
-- 📧 Contato: seu-email@example.com
+
+- 📧 Contato: emanuelfelipe.120309@gmail.com
 
 ---
 
-**Obrigado por contribuir!** 🎉
+**Obrigado por contribuir!** 
 
 Toda contribuição, pequena ou grande, é apreciada e ajuda a fazer PyOS-Agent melhor.
+
